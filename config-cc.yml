@@ -314,42 +314,42 @@ system:
         # Note: These parameters are used by a voice channel to communicate back to a
         #   control channel to give the control channel "real time" traffic channel updates.
         #   These parameters should be left default for dedicated control channels.
-        #
-        #controlCh:
-        #    # RPC IP Address for control channel. (If blank, notifications are disabled.)
-        #    rpcAddress: 127.0.0.1
-        #    # RPC Port number for control channel. (If 0, notifications are disabled.)
-        #    rpcPort: 9891
-        #    # RPC access password for control channel.
-        #    rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
-        #    # Flag indicating voice channels will notify the control channel of traffic status.
-        #    notifyEnable: true
-        #    # Amount of time between network presence announcements. (seconds)
-        #    # NOTE: This value applies to VC -> CC and CC -> FNE presence notification messages.
-        #    presence: 120
-        #
-        #
+        
+        controlCh:
+            # RPC IP Address for control channel. (If blank, notifications are disabled.)
+            rpcAddress: 127.0.0.1
+            # RPC Port number for control channel. (If 0, notifications are disabled.)
+            rpcPort: 9891
+            # RPC access password for control channel.
+            rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
+            # Flag indicating voice channels will notify the control channel of traffic status.
+            notifyEnable: true
+            # Amount of time between network presence announcements. (seconds)
+            # NOTE: This value applies to VC -> CC and CC -> FNE presence notification messages.
+            presence: 120
+        
+        
         # Voice Channels
         #
-        #voiceChNo:
-        #      # Channel Identity (corresponds to the appropriate entry in the iden_table file).
-        #      # Note: When using explicit channels, this represents the transmit channel identity.
-        #    - channelId: 2
-        #      # Channel Number (used to calculate actual host frequency based on the identity table).
-        #      # Note: When using explicit channels, this represents the transmit channel number.
-        #      channelNo: 8c0
-        #      # Rx Channel Identity (corresponds to the appropriate entry in the iden_table file).
-        #      # Note: When this is defined, the voice channel is using explicit channel frequencies.
-        #      #rxChannelId: 2
-        #      # Rx Channel Number (used to calculate actual host frequency based on the identity table).
-        #      # Note: when this is defined, the voice channel is using explicit channel frequencies.
-        #      #rxChannelNo: 2
-        #      # RPC IP Address for voice channel.
-        #      rpcAddress: 127.0.0.1
-        #      # RPC Port number for voice channel.
-        #      rpcPort: 9892
-        #      # RPC access password for voice channel.
-        #      rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
+        voiceChNo:
+              # Channel Identity (corresponds to the appropriate entry in the iden_table file).
+              # Note: When using explicit channels, this represents the transmit channel identity.
+            - channelId: 2
+              # Channel Number (used to calculate actual host frequency based on the identity table).
+              # Note: When using explicit channels, this represents the transmit channel number.
+              channelNo: 8c0
+              # Rx Channel Identity (corresponds to the appropriate entry in the iden_table file).
+              # Note: When this is defined, the voice channel is using explicit channel frequencies.
+              #rxChannelId: 2
+              # Rx Channel Number (used to calculate actual host frequency based on the identity table).
+              # Note: when this is defined, the voice channel is using explicit channel frequencies.
+              #rxChannelNo: 2
+              # RPC IP Address for voice channel.
+              rpcAddress: 127.0.0.1
+              # RPC Port number for voice channel.
+              rpcPort: 9892
+              # RPC access password for voice channel.
+              rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
 
         secure:
             # AES-128 16-byte Key (used for LLA)
