@@ -93,7 +93,7 @@ network:
     # IP address of the network interface to listen for RPC calls on (or 0.0.0.0 for all).
     rpcAddress: 127.0.0.1
     # Port number for RPC calls to listen on.
-    rpcPort: 9890
+    rpcPort: 9891
     # RPC access password.
     rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
     # Flag indicating whether or not verbose RPC debug logging is enabled.
@@ -315,19 +315,19 @@ system:
         #   control channel to give the control channel "real time" traffic channel updates.
         #   These parameters should be left default for dedicated control channels.
         #
-        controlCh:
-            # RPC IP Address for control channel. (If blank, notifications are disabled.)
-            rpcAddress: 127.0.0.1
-            # RPC Port number for control channel. (If 0, notifications are disabled.)
-            rpcPort: 9891
-            # RPC access password for control channel.
-            rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
-            # Flag indicating voice channels will notify the control channel of traffic status.
-            notifyEnable: true
-            # Amount of time between network presence announcements. (seconds)
-            # NOTE: This value applies to VC -> CC and CC -> FNE presence notification messages.
-            presence: 120
-
+        #controlCh:
+        #    # RPC IP Address for control channel. (If blank, notifications are disabled.)
+        #    rpcAddress: 127.0.0.1
+        #    # RPC Port number for control channel. (If 0, notifications are disabled.)
+        #    rpcPort: 9891
+        #    # RPC access password for control channel.
+        #    rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
+        #    # Flag indicating voice channels will notify the control channel of traffic status.
+        #    notifyEnable: true
+        #    # Amount of time between network presence announcements. (seconds)
+        #    # NOTE: This value applies to VC -> CC and CC -> FNE presence notification messages.
+        #    presence: 120
+        #
         #
         # Voice Channels
         #
