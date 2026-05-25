@@ -49,7 +49,7 @@ master:
     # Network Peer ID
     #   NOTE: This ID is a uniquely identifying number. It *MUST* be a unique number across any networks this FNE
     #        instance connects to. Failure to use a unique number *WILL* cause network issues.
-    peerId: 9000100
+    peerId: 99999
     # Hostname/IP address to listen on (blank for all).
     address: 0.0.0.0
     # Port number to listen on.
@@ -259,11 +259,11 @@ peers:
       # Hostname/IP address of the FNE master to connect to.
       masterAddress: 127.0.0.1
       # Port number of the FNE master to connect to.
-      masterPort: 32090
+      masterPort: 62031
       # FNE access password.
       password: RPT1234
       # Network Peer ID of this peer on the upstream FNE master.
-      peerId: 9000990
+      peerId: 99999
 
       # Flag indicating whether or not peer endpoint networking is encrypted.
       encrypted: false
