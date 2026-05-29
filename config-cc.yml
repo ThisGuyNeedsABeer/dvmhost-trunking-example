@@ -112,12 +112,12 @@ system:
         siteId: 1
         supervisor: true
         sysId: 001
-        voiceChNo:
-            - channelId: 2
-              channelNo: 8c0
-              rpcAddress: 127.0.0.1
-              rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
-              rpcPort: 9892
+        #voiceChNo:
+        #    - channelId: 2
+        #      channelNo: 8c0
+        #      rpcAddress: 127.0.0.1
+        #      rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
+        #      rpcPort: 9892
     cwId:
         callsign: ABCD123
         enable: false
