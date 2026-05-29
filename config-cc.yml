@@ -9,19 +9,19 @@ log:
     fileRoot: cc
     useSyslog: false
 network:
-    address: 127.0.0.2
+    address: 10.0.40.194
     allowActivityTransfer: true
     allowDiagnosticTransfer: true
     allowStatusTransfer: true
     debug: false
     enable: true
     encrypted: true
-    id: 100000
+    id: 10000
     packetDump: false
     password: RPT1234
     port: 62031
     presharedKey: 000102030405060708090A0B0C0D0E0F000102030405060708090A0B0C0D0E0F
-    restAddress: 127.0.0.4
+    restAddress: 127.0.0.1
     restDebug: false
     restEnable: true
     restPassword: PASSWORD
@@ -29,7 +29,7 @@ network:
     restSsl: false
     restSslCertificate: web.crt
     restSslKey: web.key
-    rpcAddress: 127.0.0.4
+    rpcAddress: 127.0.0.1
     rpcDebug: false
     rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
     rpcPort: 9891
@@ -96,12 +96,12 @@ system:
         authoritative: true
         channelId: 2
         channelNo: 120
-        controlCh:
-            notifyEnable: true
-            presence: 120
-            rpcAddress: 127.0.0.4
-            rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
-            rpcPort: 9891
+        #controlCh:
+        #    notifyEnable: false
+        #    presence: 120
+        #    rpcAddress: 127.0.0.1
+        #    rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
+        #    rpcPort: 9891
         defaultNetIdleTalkgroup: 0
         nac: 293
         netId: BB800
@@ -115,7 +115,7 @@ system:
         voiceChNo:
             - channelId: 2
               channelNo: 8c0
-              rpcAddress: 127.0.0.3
+              rpcAddress: 127.0.0.1
               rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
               rpcPort: 9892
     cwId:
@@ -147,7 +147,7 @@ system:
             dfsiTIAMode: false
             fsc: false
             fscHeartbeat: 5
-            fullDuplex: false
+            fullDuplex: true
             initiator: false
             jitter: 200
             rtrt: true
@@ -181,7 +181,7 @@ system:
             mode: air
             type: uart
             uart:
-                port: /dev/ttyUSB0
+                port: /dev/ttyUSB1
                 speed: 115200
         pttInvert: false
         repeater:
