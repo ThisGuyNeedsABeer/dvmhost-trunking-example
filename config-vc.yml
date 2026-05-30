@@ -1,4 +1,4 @@
-# Rev 1.1 - Working
+# Rev - 1.2
 daemon: true
 iAgreeNotToBeStupid: true
 log:
@@ -104,7 +104,7 @@ system:
             rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
             rpcPort: 9891
         defaultNetIdleTalkgroup: 0
-        nac: 293
+        nac: 6C1
         netId: BB800
         pSuperGroup: FFFE
         rfssId: 1
