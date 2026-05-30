@@ -1,3 +1,4 @@
+# Rev 1.1 - Working
 daemon: true
 iAgreeNotToBeStupid: true
 log:
@@ -9,37 +10,37 @@ log:
     fileRoot: vc
     useSyslog: false
 network:
-    address: 127.0.0.2
+    address: 10.0.40.194
     allowActivityTransfer: true
     allowDiagnosticTransfer: true
     allowStatusTransfer: true
     debug: false
     enable: true
     encrypted: true
-    id: 100001
+    id: 10001
     packetDump: false
     password: RPT1234
     port: 62031
     presharedKey: 000102030405060708090A0B0C0D0E0F000102030405060708090A0B0C0D0E0F
-    restAddress: 127.0.0.3
+    restAddress: 127.0.0.1
     restDebug: false
     restEnable: true
     restPassword: PASSWORD
-    restPort: 9992
+    restPort: 9991
     restSsl: false
     restSslCertificate: web.crt
     restSslKey: web.key
-    rpcAddress: 127.0.0.3
+    rpcAddress: 127.0.0.1
     rpcDebug: false
     rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
-    rpcPort: 9892
+    rpcPort: 9891
     saveLookups: true
     updateLookups: true
 protocols:
-    dmr:
-        enable: false
-    nxdn:
-        enable: false
+    #dmr:
+    #    enable: false
+    #nxdn:
+    #    enable: false
     p25:
         allowExplicitSourceId: false
         callHang: 5
@@ -99,7 +100,7 @@ system:
         controlCh:
             notifyEnable: true
             presence: 120
-            rpcAddress: 127.0.0.4
+            rpcAddress: 127.0.0.1
             rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
             rpcPort: 9891
         defaultNetIdleTalkgroup: 0
@@ -115,16 +116,16 @@ system:
         voiceChNo:
             - channelId: 2
               channelNo: 8c0
-              rpcAddress: 127.0.0.3
+              rpcAddress: 127.0.0.1
               rpcPassword: "ULTRA-VERY-SECURE-DEFAULT"
-              rpcPort: 9891
+              rpcPort: 9892
     cwId:
         callsign: ABCD123
         enable: false
         time: 15
     disableWatchdogOverflow: false
     duplex: true
-    fixedMode: false
+    fixedMode: true
     iden_table:
         file: /opt/dvm/rules/iden_table.dat
         time: 30
@@ -147,14 +148,14 @@ system:
             dfsiTIAMode: false
             fsc: false
             fscHeartbeat: 5
-            fullDuplex: false
+            fullDuplex: true
             initiator: false
             jitter: 200
             rtrt: true
         disableOFlowReset: false
         displayModemDebugMessages: false
-        dmrFifoLength: 560
-        dmrRxDelay: 7
+        #dmrFifoLength: 560
+        #dmrRxDelay: 7
         dumpModemStatus: false
         fdmaPreamble: 80
         hotspot:
@@ -163,17 +164,17 @@ system:
             afcKI: 13
             afcKP: 5
             afcRange: 1
-            dmrDiscBWAdj: 0
-            dmrPostBWAdj: 0
-            nxdnDiscBWAdj: 0
-            nxdnPostBWAdj: 0
+            #dmrDiscBWAdj: 0
+            #dmrPostBWAdj: 0
+            #nxdnDiscBWAdj: 0
+            #nxdnPostBWAdj: 0
             p25DiscBWAdj: 0
             p25PostBWAdj: 0
             rxTuning: "-128"
             txTuning: "-128"
         ignoreModemConfigArea: false
-        nxdnFifoLength: 538
-        nxdnFifoLenth: 538
+        #nxdnFifoLength: 538
+        #nxdnFifoLenth: 538
         p25CorrCount: 2
         p25FifoLength: 522
         packetPlayoutTime: 10
@@ -181,16 +182,16 @@ system:
             mode: air
             type: uart
             uart:
-                port: /dev/ttyUSB1
+                port: /dev/ttyUSB0
                 speed: 115200
         pttInvert: false
         repeater:
-            dmrSymLvl1Adj: 0
-            dmrSymLvl3Adj: 0
-            nxdnDiscBWAdj: 0
-            nxdnPostBWAdj: 0
-            nxdnSymLvl1Adj: 0
-            nxdnSymLvl3Adj: 0
+            #dmrSymLvl1Adj: 0
+            #dmrSymLvl3Adj: 0
+            #nxdnDiscBWAdj: 0
+            #nxdnPostBWAdj: 0
+            #nxdnSymLvl1Adj: 0
+            #nxdnSymLvl3Adj: 0
             p25SymLvl1Adj: 0
             p25SymLvl3Adj: 0
         rssiMappingFile: RSSI.dat
