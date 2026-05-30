@@ -1,0 +1,2022 @@
+__File Format Version__,0x01
+
+
+__Feature__,"Advanced Key Serial Number List Table"
+
+__Field Names__
+"Advanced Key Serial Number","Codeplug Program Date"
+__Field Values__
+" "," "
+
+
+__Feature__,"ASTRO Call List"
+
+__Record__,1 of 1 ("ASTRO Call List")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"List Alias","LIST 1"
+
+__Section__,"List"
+
+__Field Names__
+"Type","Call ID","ASTRO Call ID Text"
+__Field Values__
+"Ind","0","CALL 1"
+
+
+__Feature__,"ASTRO Configuration"
+
+__Section__,"Radio Wide"
+
+__Field Name__, __Field Value__
+"CAI Data Max Tx Attempts","4"
+"CAI Data Response Timer","3300"
+"CAI Data Min Response Timer","700"
+"CAI Data Max Packet Size","512"
+"Secure Packet Data By Default","False"
+"Talk Inhibit Tone","True"
+"Conventional Customer ID","0000"
+
+__Section__,"Data"
+
+__Field Name__, __Field Value__
+"Frame Sync Seek Period","750"
+"Tx Short Random Range","50"
+"Tx Long Random Range","2000"
+"Tx Resp Random Range","1000"
+"Tx Limited Patience","Infinite"
+"ARP Cache Depth","10"
+"ARP Cache Time (hrs)","Infinite"
+
+__Section__,"Group ID"
+
+__Field Name__, __Field Value__
+"ASTRO CAI Data group ID 1","10000000"
+"ASTRO CAI Data group ID 2","10000000"
+"ASTRO CAI Data group ID 3","10000000"
+"ASTRO CAI Data group ID 4","10000000"
+"ASTRO CAI Data group ID 5","10000000"
+"ASTRO CAI Data group ID 6","10000000"
+"ASTRO CAI Data group ID 7","10000000"
+"ASTRO CAI Data group ID 8","10000000"
+
+__Section__,"OTAC"
+
+__Field Name__, __Field Value__
+"OTACS Feature","False"
+"OTACR Feature","False"
+
+__Section__,"OTAC Table"
+
+__Field Name__, __Field Value__
+"OTAC Zone 1","1"
+"OTAC Channel 1","1"
+"OTAC Zone 2","1"
+"OTAC Channel 2","1"
+"OTAC Zone 3","1"
+"OTAC Channel 3","1"
+"OTAC Zone 4","1"
+"OTAC Channel 4","1"
+"OTAC Zone 5","1"
+"OTAC Channel 5","1"
+"OTAC Zone 6","1"
+"OTAC Channel 6","1"
+"OTAC Zone 7","1"
+"OTAC Channel 7","1"
+"OTAC Zone 8","1"
+"OTAC Channel 8","1"
+"OTAC Zone 9","1"
+"OTAC Channel 9","1"
+"OTAC Zone 10","1"
+"OTAC Channel 10","1"
+"OTAC Zone 11","1"
+"OTAC Channel 11","1"
+"OTAC Zone 12","1"
+"OTAC Channel 12","1"
+"OTAC Zone 13","1"
+"OTAC Channel 13","1"
+"OTAC Zone 14","1"
+"OTAC Channel 14","1"
+"OTAC Zone 15","1"
+"OTAC Channel 15","1"
+"OTAC Zone 16","1"
+"OTAC Channel 16","1"
+
+__Section__,"Soft ID"
+
+__Field Name__, __Field Value__
+"Soft ID Feature","False"
+"Soft ID"," "
+
+
+__Feature__,"ASTRO System"
+
+__Record__,1 of 1 ("ASTRO System")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Individual ID","656565"
+"Talkgroup ID","1"
+"Preamble Length","250"
+"Scan Signal Time","0.0"
+"Scan Voice Detect Time","0"
+"Status","True"
+"Status Request","True"
+"Message","True"
+"Preamble Multiplier","True"
+
+__Section__,"Emergency"
+
+__Field Name__, __Field Value__
+"Emergency","False"
+"Emergency Type","Alarm Only"
+"Acknowledge Alert Tone","True"
+"Hot Mic Emergency","False"
+"Hot Mic Tx Period","10"
+"Emergency via Silent Audio","False"
+"Silent Audio Tx Period","1"
+"Auto Exit Emergency Call","False"
+"Emergency Revert Zone 1","1"
+"Emergency Revert Channel 1","1"
+"Emergency Revert Zone 2","1"
+"Emergency Revert Channel 2","1"
+"Emergency Revert Zone 3","1"
+"Emergency Revert Channel 3","1"
+
+__Section__,"Emergency Options"
+
+__Field Name__, __Field Value__
+"Priority Tx Inhibit","False"
+"Limited Patience Time","0"
+"Polite Retries","5"
+"Impolite Retries","15"
+"TX Multiplier","0"
+"Global TX Multiplier","False"
+"Silent Override w/ Mon","False"
+
+__Section__,"Remote"
+
+__Field Name__, __Field Value__
+"Remote Radio Mode","Radio Trace"
+"Remote Mon/Radio Trace","False"
+"Tx Base Time","10"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"Talkgroup Hang Time","0.000"
+"Sel Call/In-Call Reset","Auto w/ Carr"
+"Auto Reset Time","5"
+"Limited Patience","53"
+"Radio Inhibit","False"
+"Radio Check","True"
+"CAI Data Registration","True"
+"Emergency Alarm Receive Indicator Enable","True"
+
+__Section__,"Data"
+
+__Field Name__, __Field Value__
+"Packet Data Capable System (PDS)","False"
+"Limited Broadcast","False"
+"Auto Generate IP Address","False"
+"Packet Data Mode","FNE"
+"Enable NAT","False"
+"Auto Generate Target IP Address","False"
+"Location Data Capable System","False"
+"Data Scan Preamble Length","Disabled"
+"Queue Dwell Timer (secs)","60"
+"Subscriber Air-Interface IP Address Octet 1","0"
+"Subscriber Air-Interface IP Address Octet 2","0"
+"Subscriber Air-Interface IP Address Octet 3","0"
+"Subscriber Air-Interface IP Address Octet 4","0"
+"Mobile Computer IP Address Octet 1","0"
+"Mobile Computer IP Address Octet 2","0"
+"Mobile Computer IP Address Octet 3","0"
+"Mobile Computer IP Address Octet 4","0"
+"Text Messaging Service","None"
+"Data Application Time Between Attempts","15"
+"Data Application Number of Attempts","5"
+"OTAP Enable","False"
+"OTAP Retransmission Timer","10"
+
+__Section__,"ARS"
+
+__Field Name__, __Field Value__
+"Automatic Registration Service Enable","False"
+"ARS Mode","Server"
+"ARS Retry Timer","30"
+"Automatic Registration Server Addr Cnv Octet1","0"
+"Automatic Registration Server Addr Cnv Octet2","0"
+"Automatic Registration Server Addr Cnv Octet3","0"
+"Automatic Registration Server Addr Cnv Octet4","0"
+
+__Section__,"DVRS"
+
+__Field Name__, __Field Value__
+"DVRS Operation Enable","False"
+"DVRS Talk Permit Tone","True"
+"DVRS Display Site Trunking","False"
+"DVRS Alert Site Trunking","False"
+"DVRS Dynamic Regrouping Enable","False"
+"TA When No DVRS Comms","False"
+"TA After DVRS No Communication Retries","5"
+"DVRS Busy Update Time","30"
+"DVRS Resp Pending Time","6"
+"DVRS Activation Wait Timer","3"
+"DVRS Private Call Key Select","1"
+"DVRS Patch Key Select","1"
+"DVRS Failsoft Key Select","1"
+"DVRS Dynamic Talkgroup Key Select","1"
+"DVRS Phone Interconnect Key Select","1"
+
+
+__Feature__,"ASTRO Talkgroup List"
+
+__Record__,1 of 1 ("ASTRO Talkgroup List")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Secure KMF Profile Enable","False"
+"KMF Profile Index","1"
+"Talkgroup Alias","True"
+"Ind Sel Call Hw Key","1"
+
+__Section__,"Talkgroup Table"
+
+__Field Names__
+"Talkgroup ID","Talkgroup Alias Text","Voice Secure / Clear Strapping","Key Select Reference"
+__Field Values__
+"2","TG 00002","Clear","1"
+
+
+__Feature__,"Buttons"
+
+__Field Name__, __Field Value__
+"Conventional Top Button","Unprogrammed"
+"Trunking Top Button","Unprogrammed"
+"Conventional Side button 1","Monitor"
+"Conventional Side button 2","Unprogrammed"
+"Conventional Side button 3","TalkAround/Direct"
+"Trunking Side button 1","Unprogrammed"
+"Trunking Side button 2","Unprogrammed"
+"Trunking Side button 3","Unprogrammed"
+"Conventional Data Button","TMS"
+"Trunking Data Button","TMS"
+
+
+__Feature__,"Clone Radio - Conventional  ASTRO Systems"
+
+__Field Names__
+"Individual ID","Talkgroup ID"
+__Field Values__
+"656565","1"
+
+
+__Feature__,"Clone Radio - Conventional DTMF Systems"
+
+__Field Names__
+"Primary ID","Group ID"
+__Field Values__
+"12345678","11111111"
+
+
+__Feature__,"Clone Radio - OTAR Radio ID"
+
+__Field Names__
+"Individual ASTRO OTAR Radio ID"
+__Field Values__
+"1"
+
+
+__Feature__,"Clone Radio - Radio User Information"
+
+__Field Name__, __Field Value__
+"Clone Radio - Soft ID/Username"," "
+"Clone Radio - User Login Unit ID"," "
+"Clone Radio - Radio ID Alias"," "
+
+
+__Feature__,"Clone Radio - Trk Sys ID"
+
+__Field Names__
+"Protocol Type","System ID","Fleet Id","Type II Individual ID","Type II Individual ID Hex","Unit ID","Unit ID Hex","System Key"
+__Field Values__
+"ASTRO 25","6CC","1","1","1","6645093","656565","True"
+
+
+__Feature__,"Clone Radio - Trunking Duplicate ID"
+
+__Field Name__, __Field Value__
+"Trunking Per #","1"
+"Clone Radio Type II Individual ID","656565"
+"Clone Radio Type II Individual ID","6645093"
+
+
+__Feature__,"Conventional Cloning MDC Systems"
+
+__Field Names__
+"Primary ID","Secondary ID","Variable ID"
+__Field Values__
+"0001","00000000","000"
+
+
+__Feature__,"Conventional Configuration"
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Monitor Type","Open squelch"
+"Direct Frequency","False"
+"HUB Defeats PL","False"
+"Latch Enable Tone","True"
+"Latch Enable Time","2.0"
+"MPL Recall Mode","From MPL List"
+"Status Number of Attempts","5"
+
+__Section__,"Smart PTT"
+
+__Field Name__, __Field Value__
+"Smart PTT Retry Timer","275"
+"Smart PTT Quick Key Timer","500"
+
+
+__Feature__,"Conventional Personality"
+
+__Record__,1 of 1 ("Conventional Personality")
+
+__Section__,"Rx Options"
+
+__Field Name__, __Field Value__
+"Receive Only Personality","False"
+"Rx Unmute Delay Number","1"
+"Rx Unmute Delay (ms)","0"
+"Unmute/Mute Type","And UnMute, Or Mute"
+"Rx Voice/Signal Type","ASTRO"
+"Squelch (Fine Tune)","6"
+"Rx Emphasis","True"
+"Busy LED","True"
+"HearClear","False"
+
+__Section__,"Tx Options"
+
+__Field Name__, __Field Value__
+"Time Out Timer Number","3"
+"Time Out Timer","60"
+"Tx Voice/Signal Type","ASTRO"
+"Transmit Emphasis","True"
+"Rev Burst Turn-Off Code","True"
+"Hot Keypad","False"
+"Conventional DTMF Mic Enable","False"
+"Transmit Pow Level","High"
+
+__Section__,"Signaling"
+
+__Field Name__, __Field Value__
+"Signaling Type","None"
+"System Number","1"
+"Signaling Revert","Selected Chan"
+"PTT ID","False"
+"Emergency PTT ID","False"
+
+__Section__,"MDC"
+
+__Field Name__, __Field Value__
+"MDC Selective Call Decode","False"
+"MDC Call Alert Decode","False"
+"MDC Unmute Type","And"
+"MDC In-Call User Alert Enable","False"
+"MDC Selective Call Encode","False"
+"MDC Call Alert Encode","False"
+"Auto Select Call Tx","False"
+"Unlimited Calling","False"
+"MDC Call ID List","1"
+"Tx Inhibit on Busy","False"
+"MDC RTT Button Access","None"
+
+__Section__,"Secure"
+
+__Field Name__, __Field Value__
+"Secure Voice/Signal Type","ASTRO"
+"Proper Code Detect","False"
+"Secure/Clear Strapping","Clear"
+"DES-XL Tx Default","False"
+"Echo Mute Time","0"
+"OTAR Tx","False"
+"XL Transmit","True"
+"ASTRO OTAR","False"
+"Scan Select","Non-XL & XL"
+"Tactical Rekey","False"
+"KMF Profile Index","1"
+"Scan Holdoff Strapping","Clear Only"
+
+__Section__,"Secure II"
+
+__Field Name__, __Field Value__
+"XL Delay Following Key ID","50"
+"Key ID","None"
+"Packet Data Secure/Clear Strapping","Clear"
+"Packet Data Key Selection","1"
+"Ignore Rx Clear Packet Data","False"
+"Voice Key Strapping","Select"
+"Voice Key Selection","1"
+
+__Section__,"RAC"
+
+__Field Name__, __Field Value__
+"Repeater Access","False"
+"Tone Signaling System","1"
+"Access Type","Manual"
+"Cnv Per Repeater Access Strapping","Mode Slaved"
+"PTT/RAB1 Code Type","Singletone"
+"PTT/RAB1 MDC Repeater ID","1"
+"PTT/RAB1 Repeater ID Value","1"
+"PTT/RAB1 Singletone (Hz)","1"
+"PTT/RAB1 Singletone Value","300.0"
+"RAB2 Code Type","None"
+"RAB MDC Repeater ID - RAB2","1"
+"RAB2 Repeater ID Value","1"
+"RAB Singletone (Hz) - RAB2","1"
+"RAB2 Singletone value","300.0"
+
+__Section__,"Phone"
+
+__Field Name__, __Field Value__
+"Phone Operation","None"
+"Initial Phone Mode","Initiate Call"
+"Auto Access Code Select","1"
+"Auto Access Code Select Number","*1P#"
+"DTMF Access Timing Table","1"
+"DTMF Initial Delay","1500"
+"DTMF Digit Duration","125"
+"DTMF Interdigit Delay","75"
+
+__Section__,"Smart PTT"
+
+__Field Name__, __Field Value__
+"Smart PTT Type","Disabled"
+"Quick Key Override","False"
+"Override Timer","500"
+
+__Section__,"Scan"
+
+__Field Name__, __Field Value__
+"Scan List Selection","None"
+"Automatic Scan","False"
+"Mixed Vote Scan Enable","False"
+"Tx Steering","False"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"Advanced RF AGC","Enhanced"
+"Surveillance Mode","False"
+"Second LO Side Injection","False"
+"TPS UI Enable","False"
+"TPS Signaling","False"
+"PASS Alarm Filter Enable","False"
+
+__Section__,"ASTRO"
+
+__Field Name__, __Field Value__
+"ASTRO System","1"
+"Rd Lap","False"
+"Emergency Revert","Selected Chan"
+"Adaptive Power","False"
+"Digital Modulator Type","C4FM"
+"Terminal Data","True"
+"Rx Unmute Rule","Normal Squelch"
+"Late Entry Fast Unmute","True"
+"OTACR/OTACS Messaging","False"
+
+__Section__,"ASTRO Call"
+
+__Field Name__, __Field Value__
+"Call Alert Decode","True"
+"Selective Call Decode","True"
+"ASTRO In-Call User Alert Enable","True"
+"Stun Decode","False"
+"Kill Decode","False"
+"Call Alert Encode","True"
+"Selective Call Encode","True"
+"Auto Sel Call Transmit","True"
+"ASTRO Unlimited Calling","True"
+"Stun Encode","False"
+"Kill Encode","False"
+"ASTRO Call ID List","1"
+
+__Section__,"ASTRO Talkgroup Options"
+
+__Field Name__, __Field Value__
+"ASTRO Sys Talkgroup","False"
+"Selection Type","Strapped"
+"Conv. Talkgroup List","1"
+"Conv. Talkgroup Id","1"
+
+__Section__,"Quik-Call II"
+
+__Field Name__, __Field Value__
+"Quik-Call II Selective Call Decode","False"
+"Quik-Call II Call Alert Decode","False"
+"Quik-Call II Unmute Type","And"
+"Quik-Call II In-Call User Alert Enable","False"
+"Quik-Call II Selective Call Encode","False"
+"Quik-Call II Call Alert Encode","False"
+"Quik-Call II Call ID List","1"
+
+__Section__,"DTMF"
+
+__Field Name__, __Field Value__
+"DTMF Selective Call Decode","False"
+"DTMF Call Alert Decode","False"
+"DTMF Unmute Type","And"
+"DTMF In-Call User Alert Enable","False"
+"DTMF Selective Call Encode","False"
+"DTMF Call Alert Encode","False"
+"DTMF Call ID List","1"
+
+__Section__,"Frequency Options"
+
+__Field Names__
+"Option Name","Rx Frequency (MHz)","Tx Frequency (MHz)","Mixed Vote Scan Persistent Member"
+__Field Values__
+"OPTION 1","403.02500","403.05000","False"
+
+
+__Feature__,"Data User List Entry"
+
+__Field Names__
+"Data User Information"
+__Field Values__
+"USERNAME 1"
+
+
+__Feature__,"Display & Menu"
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"General Text Justification","Left"
+"Channel Text Size","9"
+"Zone Text Size","3"
+"Slow Scroll Rate","1000"
+"Fast Scroll Rate","250"
+"Slow Scroll Count","3"
+
+__Section__,"Menu Items"
+
+__Field Name__, __Field Value__
+"Conventional Menu Items"," "
+"Conventional Menu Item Select"," "
+"Trunking Menu Items"," "
+"Trunking Menu Item Select"," "
+
+__Section__,"Radio Lock/Tactical Inhibit"
+
+__Field Name__, __Field Value__
+"Radio Lock","False"
+"Tactical Inhibit","False"
+"Mandatory Password","False"
+"Maximum Password Length","8"
+"Unlock Password"," "
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"Display On PTT TG","False"
+"Display On Receive TG","False"
+"Display On Mode Change TG","False"
+"Emergency Call Receive","False"
+"Language Selection","English"
+"Alternating Display Time","1000"
+"Temporary Message Display Time","1000"
+"Display Light Time","15"
+"Menu Inactivity Time out","60"
+"Status Auto Exit","On Successful Ack"
+"Auto Light","True"
+"Display Sys/Sub","False"
+
+__Section__,"PTT ID"
+
+__Field Name__, __Field Value__
+"ID Display Enable","True"
+"Scan ID Enable","True"
+"End Of Voice Timer","5"
+"Man Channel Change Timer","1"
+"Num Of Prefix Chars","4"
+"Prefix ID","ID:"
+"Prefix Call Alert","CA:"
+"Prefix Emergency","EM:"
+
+
+__Feature__,"DTMF Call List"
+
+__Record__,1 of 1 ("DTMF Call List")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"List Alias","LIST 1"
+
+__Section__,"List"
+
+__Field Names__
+"Call ID","Call Text"
+__Field Values__
+"12345678","CALL 1"
+
+
+__Feature__,"DTMF Code"
+
+__Field Names__
+"Access","Deaccess"
+__Field Values__
+"*1P#","*1P#"
+
+
+__Feature__,"DTMF System"
+
+__Record__,1 of 1 ("DTMF System")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Primary ID","12345678"
+"Group ID","11111111"
+"Leading PTT-ID","True"
+"PTT ID Sidetone","True"
+"PTT ID Short Sidetone","False"
+"Trailing PTT-ID","False"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"System Pretime","500"
+"Sel Call/In-Call Reset","Auto w/ Carr"
+"Auto Reset Time","5"
+"Reset Duration","2.5"
+"Limited Patience","60"
+"Ack Type","None"
+"Ack Pretime","900"
+"Ack Digit","0"
+"Tx Tone Duration","100"
+"Tx Tone Interval","50"
+
+
+__Feature__,"MDC Call List"
+
+__Record__,1 of 1 ("MDC Call List")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"List Alias","LIST 1"
+
+__Section__,"List"
+
+__Field Names__
+"Call ID","Call text"
+__Field Values__
+"Unassigned","CALL 1"
+
+
+__Feature__,"MDC Repeater ID Table"
+
+__Field Names__
+"Repeater ID"
+__Field Values__
+"1"
+
+
+__Feature__,"MDC System"
+
+__Record__,1 of 1 ("MDC System")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Primary ID","0001"
+"Secondary ID","00000000"
+"Variable ID","000"
+"Radio Check","False"
+"Radio Inhibit","False"
+"Leading PTT-ID","True"
+"PTT-ID Sidetone","True"
+"PTT-ID Short Sidetone","False"
+"Trailing PTT-ID","False"
+"Status","False"
+"Status Request","False"
+"Message","False"
+
+__Section__,"DOS"
+
+__Field Name__, __Field Value__
+"MDC Data Op Sq (DOS)","True"
+"MDC DOS Operation","1200/1800 Hz"
+"MDC DOS Coast Time","267.00"
+
+__Section__,"Emergency Revert"
+
+__Field Name__, __Field Value__
+"Revert Table Zone 1","1"
+"Revert Table Channel 1","1"
+"Revert Table Zone 2","1"
+"Revert Table Channel 2","1"
+"Revert Table Zone 3","1"
+"Revert Table Channel 3","1"
+
+__Section__,"Emergency"
+
+__Field Name__, __Field Value__
+"Emergency Enable","False"
+"Emergency Type","Alarm Only"
+"Acknowledge Alert Tone","True"
+"Emer PTT ID Sidetone","False"
+"Polite Retries","5"
+"Impolite Retries","15"
+"MDC Hot Mic Emergency","False"
+"MDC Hot Mic Tx Period","10"
+"Emer Priority Tx Inhibit","False"
+"Emer Limited Patience","0"
+"Emergency Remote Monitor","False"
+"Emergency Remote Monitor Tx Base Time","10"
+"Emergency Remote Monitor Rx Base Time","10"
+
+__Section__,"Repeater Access"
+
+__Field Name__, __Field Value__
+"RAC Pretime","200"
+"RAC Preambles","1"
+"RAC Ack Alert Tone","False"
+
+__Section__,"Remote"
+
+__Field Name__, __Field Value__
+"Remote Monitor/Radio Trace","False"
+"Remote Radio Mode","Remote Monitor"
+"Tx Base Time","10"
+
+__Section__,"Tx Multiplier"
+
+__Field Name__, __Field Value__
+"Conv MDC Global Tx Mult","False"
+"Conv MDC Tx Mult","0"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"System Pretime","500"
+"Ack Pretime","900"
+"Inter-Packet Time","100"
+"Limited Patience","60"
+"Sel Call/In-Call Reset","Auto w/ Carr"
+"Auto Reset Time","5"
+"Preamble During Pretime","False"
+"Emergency Alarm Receive Indicator Enable","True"
+
+
+__Feature__,"Message Alias Table"
+
+__Field Names__
+"Message Alias Number","Message Alias Text"
+__Field Values__
+"1","MESSAGE 1"
+"2","MESSAGE 2"
+"3","MESSAGE 3"
+"4","MESSAGE 4"
+"5","MESSAGE 5"
+"6","MESSAGE 6"
+"7","MESSAGE 7"
+"8","MESSAGE 8"
+"9","MESSAGE 9"
+"10","MESSAGE 10"
+"11","MESSAGE 11"
+"12","MESSAGE 12"
+"13","MESSAGE 13"
+"14","MESSAGE 14"
+"15","MESSAGE 15"
+"16","MESSAGE 16"
+
+
+__Feature__,"MPL Configuration"
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"MPL Select Mode","Static"
+"Preset MPL Entry","1"
+
+
+__Feature__,"MPL Entry"
+
+__Record__,1 of 1 ("MPL Entry")
+
+__Field Name__, __Field Value__
+"MPL Alias","MPL 1"
+"Tx Squelch Type","Disabled"
+"Tx PL Frequency","67.0"
+"Tx PL Code","XZ"
+"Tx DPL Code","023"
+"Tx DPL Invert","Disabled"
+"Rx Squelch Type","CSQ"
+"Rx PL Frequency","67.0"
+"Rx PL Code","XZ"
+"Rx DPL Code","023"
+"Rx DPL Invert","Disabled"
+"TA Squelch Type","Disabled"
+"TA PL Frequency","67.0"
+"TA PL Code","XZ"
+"TA DPL Code","023"
+"TA DPL Invert","Disabled"
+
+
+__Feature__,"Narrow Bandwidth 12.5 kHz Only Frequency Range List"
+
+__Field Names__
+"FCC Narrow Banding Start Frequency(MHz)","FCC Narrow Banding End Frequency(MHz)"
+__Field Values__
+"150.800000","162.012500"
+"173.200000","173.400000"
+"421.000000","470.000000"
+
+
+__Feature__,"NAT List"
+
+__Field Names__
+"WAN Port","LAN Port","Static NAT IP Address"
+__Field Values__
+"0","0","0.0.0.0"
+
+
+__Feature__,"Phone Configuration"
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Manual Access Live Dialing","False"
+"Display Format","None"
+
+__Section__,"Dialing"
+
+__Field Name__, __Field Value__
+"Phone Dialing","Delayed Buffered"
+"ASTRO 25 Phone Overdial Type","Buffered"
+"DTMF Pause Time","1000"
+"DTMF Digital Hang Time","1000"
+"Dialing Row 1 Initial Delay","1500"
+"Dialing Row 1 Digit Duration","125"
+"Dialing Row 1 Interdigit Delay","75"
+"Dialing Row 2 Initial Delay","250"
+"Dialing Row 2 Digit Duration","150"
+"Dialing Row 2 Interdigit Delay","100"
+"Dialing Row 3 Initial Delay","350"
+"Dialing Row 3 Digit Duration","125"
+"Dialing Row 3 Interdigit Delay","75"
+"Dialing Row 4 Initial Delay","350"
+"Dialing Row 4 Digit Duration","125"
+"Dialing Row 4 Interdigit Delay","75"
+
+
+__Feature__,"Phone Number Table"
+
+__Field Names__
+"Number","Text"
+__Field Values__
+" ","PHONE 1"
+
+
+__Feature__,"Quick Text Message Entry"
+
+__Field Names__
+"Quick Text Message"
+__Field Values__
+"MESSAGE 1"
+
+
+__Feature__,"Quik-Call II Call List"
+
+__Record__,1 of 1 ("Quik-Call II Call List")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"List Alias","LIST 1"
+
+__Section__,"List"
+
+__Field Names__
+"Call Text (Alias)","Call Format","Tone A Frequency (Hz)","Tone A Code","Tone B Frequency (Hz)","Tone B Code"
+__Field Values__
+"CALL 1","Two Tone","1357.5","None","746.5","None"
+
+
+__Feature__,"Quik-Call II System"
+
+__Record__,1 of 1 ("Quik-Call II System")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Call Format","A-B"
+"PTT Sidetone","True"
+"Long Tone Duration","9"
+"PTT Short Sidetone","False"
+"Tone A Frequency","358.6"
+"Tone A Code","142"
+"Tone B Frequency","903.2"
+"Tone B Code","159"
+"Tone C Frequency","288.5"
+"Tone C Code","None"
+"Tone D Frequency","288.5"
+"Tone D Code","None"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"System Pretime","500"
+"Sel Call/In-Call Reset","Auto w/ Carr"
+"Auto Reset Time","5"
+"Limited Patience","60"
+
+
+__Feature__,"Radio Information"
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"System Package","SMARTZone"
+"Model Number","H46QDH9PW7BN"
+"Serial Number","407CJFD817"
+"Electronic Serial Number","N/A"
+"FLASHCode","58149A-E01688-2"
+"Codeplug Alias"," "
+
+__Section__,"Tracking"
+
+__Field Name__, __Field Value__
+"Programming Information Date","30-May-2026"
+"Programming Information Time","5:56 PM"
+"Programming Information Source","Depot"
+"Original Programmed Date","30-May-2026"
+"Codeplug Version","0024"
+"Original Programming Source","CPS"
+"Number of FLASHes","0"
+"Last FLASHed Source","CPS"
+"I-Button","000000000000"
+
+__Section__,"Versioning"
+
+__Field Name__, __Field Value__
+"Codeplug Description Version","0024"
+"DSP Version","R19.50.01"
+"Firmware Version","R20.50.09"
+"UCM Version","Unknown"
+"Tuning Version","R01.08.14"
+"PSDT Version","R04.00.00"
+"Boot Application Version","R01.04.20"
+"Nautilus Version","N/A"
+
+__Section__,"Feature Set"
+
+__Field Name__, __Field Value__
+"Feature Set List"," "
+
+
+__Feature__,"Radio Wide"
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Radio Cloning","False"
+"Block Pending CA/PC","False"
+"Maximum Channels (Talkgroups)","870"
+"Out of Range Indicator","Display Only"
+"Imbalanced Coverage Indicator","Alert & Display"
+"System Registration Indicator","Alert & Display"
+"Time format","24 hr"
+"Date Format","mm/dd/yy domestic"
+"Channel Announcement","False"
+"Channel Announcement Priority","Low"
+"Last Selected Channel Per Zone Enable","False"
+"Power Up On Last Selected Zone and Channel","False"
+"Preset Zone and Channel Enable","False"
+"ARS User Login Enable","False"
+"Soft ID/Username"," "
+"User Login Unit ID Enable","False"
+"User Login Unit ID"," "
+"Cached Credential User Login Mode","Last Mode"
+"Radio ID Alias Enable","False"
+"Radio ID Alias"," "
+"Key Type","None"
+"Owner System ID","0"
+"Disable Write Protect","False"
+
+__Section__,"Emergency"
+
+__Field Name__, __Field Value__
+"Silent Alarm","False"
+"Keep Alive","False"
+"Unmute Option","False"
+"Channel Delay","02"
+"Man Down","False"
+"Long Keypress Required for RSM","False"
+"Man Down Pre-Alert","10"
+"Man Down Post-Alert","10"
+
+__Section__,"TPS"
+
+__Field Name__, __Field Value__
+"Emergency Alarm Receive Indicator Type","No Indication"
+"Voice Tx End Tone","False"
+"Audible Emergency Beacon","Disabled"
+"Emergency Alarm Retry Rate","Disabled"
+"Emergency Call De-key Sidetone","False"
+"PTT Transmission","None"
+"Emergency PTT Transmission","None"
+
+__Section__,"Alert Tones"
+
+__Field Name__, __Field Value__
+"Alert Tones","True"
+"Volume Adjust Tone Offset","False"
+"Power-Up Self Test Alert Tone","True"
+"Zero Level Audio Mute","False"
+"Call Alert Tone Auto Reset","False"
+"Scan Alert Tone Enable","False"
+"Fixed Alert Tone Enable","False"
+"Fixed Alert Tone Volume Setting","1"
+"Minimum Alert Tone Volume","23"
+"Maximum Alert Tone Volume","255"
+"Minimum Audio Volume","23"
+"Maximum Audio Volume","255"
+"Alert Tone Volume Offset","0"
+"Individual Unit Call Alert Level","200"
+"Mute Tones Operation","Keypad Tones"
+"LED","True"
+"Tx Chirp","True"
+"Standby Chirp","60"
+"Number of Vibration Alerts","5"
+"Number of Ring Tones","5"
+
+__Section__,"Time-Out Timers"
+
+__Field Name__, __Field Value__
+"Radio Wide Time Out Timer Row 1 Time","Infinite"
+"Radio Wide Time Out Timer Row 2 Time","30"
+"Radio Wide Time Out Timer Row 3 Time","60"
+"Radio Wide Time Out Timer Row 4 Time","120"
+
+__Section__,"Home Mode"
+
+__Field Name__, __Field Value__
+"Home Mode Selection","False"
+"Home Mode Zone","1"
+"Home Mode Channel","1"
+
+__Section__,"Tx Audio Control Per Mode"
+
+__Field Name__, __Field Value__
+"Int Mic Analog","True"
+"Analog Fixed Gain (Int)","0"
+"Int Mic Digital","True"
+"Digital Fixed Gain (Int)","0"
+"Int Mic Securenet","True"
+"Securenet Fixed Gain (Int)","0"
+"Ext Mic Analog","True"
+"Analog Fixed Gain (Ext)","0"
+"Ext Mic Digital","True"
+"Digital Fixed Gain (Ext)","0"
+"Ext Mic Securenet","True"
+"Securenet Fixed Gain (Ext)","0"
+"AGC Output (Per Mode)","0"
+"AGC Total (Per Mode)","6"
+"Digital / Analog Balance (Per Mode)","False"
+"Noise Suppression (Per Mode)","True"
+"Attenuation Level (Per Mode)","Standard"
+
+__Section__,"Digital Audio Options"
+
+__Field Name__, __Field Value__
+"Outbound Strong Interference","True"
+"Outbound Weak Signal Fringe","True"
+"Inbound Strong Interference","True"
+"Inbound Weak Signal Fringe","True"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"Ultra Narrow Intermediate","5.76 kHz"
+"Rotary Light Time","15"
+"Auto Rotary Light","True"
+"Independent Rotary Light","False"
+"Factory Overrides","False"
+"Backlight While in VA","False"
+"Evacuation Tone","False"
+"Cyclic Keying","False"
+"Rotary Switch Lock Enable","False"
+"Auto Response Enable","False"
+"Rotary Switch","Channel"
+"Smart-Low Battery Alert","Standard"
+"Maximum Tx Deviation","Default"
+
+__Section__,"Advanced II"
+
+__Field Name__, __Field Value__
+"Short Keypress Duration","0"
+"Short Keypress Duration for Emergency","300"
+"Long Keypress Duration","1000"
+"Long Keypress Duration for Emergency","1000"
+"Soft Power Off","Disabled"
+"RSM Locks Radio Channel / Volume","False"
+"Advanced Data Protocol Configuration","False"
+
+__Section__,"Rx Audio Control"
+
+__Field Name__, __Field Value__
+"Analog Treble Control","0"
+"Digital Treble Control","0"
+"Securenet Treble Control","0"
+"Concurrent Rx Enable","False"
+"Midrange Equalization","False"
+
+__Section__,"Surveillance Mode"
+
+__Field Name__, __Field Value__
+"Surveillance Mode Access","Per Personality"
+"Disable Lights","False"
+"Disable Tones","False"
+"Disable Internal Speaker Audio","False"
+"Disable On-Board Speakers","False"
+"Ring Style Selection","Silent"
+
+__Section__,"Data"
+
+__Field Name__, __Field Value__
+"Subscriber IP Addr Octet1","192"
+"Subscriber IP Addr Octet2","168"
+"Subscriber IP Addr Octet3","128"
+"Subscriber IP Addr Octet4","1"
+"Mobile Computer IP Addr Octet1","192"
+"Mobile Computer IP Addr Octet2","168"
+"Mobile Computer IP Addr Octet3","128"
+"Mobile Computer IP Addr Octet4","2"
+"Context Deactivation Alert Tone","True"
+"SNMP Traps","False"
+"ICMP Echo","True"
+"Authentication UDP Port","49165"
+"Delete Messages on Session End","False"
+
+__Section__,"Labtool"
+
+__Field Name__, __Field Value__
+"Default Ready Timer","10"
+"Context Activation Holdoff Timer","300"
+"Packet Data Activate Wait Timer","60"
+"Context Renewal Timer","30"
+"Radio Write Protect Enabled","False"
+
+__Section__,"Location"
+
+__Field Name__, __Field Value__
+"Location Enable","False"
+"User Selectable Location Enable","False"
+
+__Section__,"POP25"
+
+__Field Name__, __Field Value__
+"OTAP Indications","Alert Only"
+"OTAP Reject Enable","False"
+
+
+__Feature__,"Scan Configuration"
+
+__Section__,"Radio Wide"
+
+__Field Name__, __Field Value__
+"Nuisance Mode Delete","True"
+"Priority Scan Alert","False"
+"HUB Suspends Scan","False"
+"Suspend All Scan","False"
+"Voice Rx/Tx Hold Time","3"
+"Data Rx/Tx Hold Time","3"
+
+__Section__,"Conventional"
+
+__Field Name__, __Field Value__
+"Carrier Detect Required","False"
+"Priority Channel Marking","False"
+"Monitor Hold Time","6"
+"Scan Time Between Priority Samples","500"
+"RSSI Voting Threshold","57"
+
+__Section__,"Trunking"
+
+__Field Name__, __Field Value__
+"Failsoft Hold Time","6"
+"System Search Time","2"
+
+
+__Feature__,"Scan List"
+
+__Record__,1 of 1 ("Scan List")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Scan Type","Conventional"
+"Multi System Scan","False"
+"Trunking System Record Num","1"
+"Trunking System ID"," 1"
+"Trunking System Type"," "
+"Dynamic Priority","False"
+"Priority 1 Type","Disabled"
+"Priority 1 Member","None"
+"Priority 2 Type","Disabled"
+"Priority 2 Member","None"
+"Non-Priority Members","Fixed"
+"Designated Voice Tx Member","Talkback"
+"Designated Data Member","None"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"Data Tx Limited Patience Timer","Infinite"
+"Voting Scan Delay Timer","0"
+"Mixed Conventional Vote Scan Inactivity Timer (min)","10"
+"Display Strongest Voted Channel","True"
+"Interference Mitigation","False"
+"Interference Mitigation Talkaround Member","None"
+"Tx Steering","False"
+
+__Section__,"List"
+
+__Field Names__
+"Zone","Channel","Zone Text","Channel Text"
+__Field Values__
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+"Unassigned","Unassigned"," "," "
+
+
+__Feature__,"Secure Configuration"
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Secure Equipped","False"
+"Auto Login","False"
+"Secure Type","Hardware"
+"OTAR Enable","False"
+"OTAR Generate Key-Loss-Key","True"
+
+__Section__,"ASTRO OTAR"
+
+__Field Name__, __Field Value__
+"ASTRO OTAR Enable","True"
+"Radio Inhibit via ASTRO OTAR","True"
+"Individual ASTRO OTAR Radio ID","1"
+
+__Section__,"MDC OTAR"
+
+__Field Name__, __Field Value__
+"MDC OTAR Enable","True"
+"Radio Inhibit via MDC OTAR","True"
+"OTAR Acknowledgements Enable","True"
+"OTAR Acknowledgements Encrypted Only","False"
+"OTAR Acknowledgements on Power-up","Disabled"
+"Rekey Request Mode","Disabled"
+"Rekey Request Status Alert Tone","True"
+"Remote Monitor via OTAR","False"
+"Remote Key-up Time Constant","10"
+"Erase Previous Index on Index Change","False"
+"KMC ID","1234"
+"MDC OTAR System","1"
+
+__Section__,"Multikey Options"
+
+__Field Name__, __Field Value__
+"Key ID Receive Hangtime (ms)","3000"
+"Key ID Transmit Hangtime (ms)","3000"
+"CKR Key Management","True"
+"PID Key Management Mode","False"
+"Keyset User Selectable","True"
+"Keyset Erase Previous On User Change","False"
+
+__Section__,"Multikey"
+
+__Field Name__, __Field Value__
+"Display on Secure Switch Select","Key Name"
+"Display on PTT","Key Name"
+"Display on Mode Change","Key Name"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"Infinite Key Retention","False"
+"Infinite UKEK Retention","False"
+"Tx Clear Alert Tones","True"
+"Proper Code Enhancer","True"
+"Rx Clear Alert Tones","False"
+"Periodic Keyfail Alert Tone","True"
+"Non-XL Scan Unsquelch Duration","275"
+"XL Scan Unsquelch Duration","875"
+"Ignore Secure/Clear Switch when Strapped","False"
+
+
+__Feature__,"Secure KMF Profile"
+
+__Record__,1 of 1 ("Secure KMF Profile")
+
+__Section__,"ASTRO OTAR Information"
+
+__Field Name__, __Field Value__
+"Rekey Request Status Alert Tone","True"
+"Erase Previous Keyset on OTAR Changeover","False"
+"User Selectable Rekey Request","False"
+"Individual ASTRO OTAR Radio ID","1"
+"OTAR Rx Security Level","Basic"
+"OTAR Tx Security Level","Basic"
+"OTAR Inactivity Timer","72"
+"Registration Response Kind","Unconfirmed"
+"Registration Number of Attempts","5"
+"Registration Time Between Attempts","15"
+
+__Section__,"Data Transport"
+
+__Field Name__, __Field Value__
+"KMF IP Address Octet 1","0"
+"KMF IP Address Octet 2","0"
+"KMF IP Address Octet 3","0"
+"KMF IP Address Octet 4","0"
+"KMF UDP Port","64414"
+"Subscriber OTAR Port","64414"
+
+__Section__,"Secure Hardware Encryption Key References List"
+
+__Field Names__
+"Hardware Key Reference","CKR Number","Key Name"
+__Field Values__
+"1","Blank","HwKey 1"
+
+
+__Feature__,"Secure Multikey"
+
+__Field Names__
+"CKR #","Key Name","Indexed","Slot A","Slot B"
+__Field Values__
+"Blank","HwKey 1","False","0","0"
+
+
+__Feature__,"Singletone Frequency Table"
+
+__Field Names__
+"Tone (Hz)"
+__Field Values__
+"300.0"
+
+
+__Feature__,"Singletone System"
+
+__Record__,1 of 1 ("Singletone System")
+
+__Field Name__, __Field Value__
+"PTT Sidetone","True"
+"RAB Sidetone","True"
+"Tone Pretime (ms)","250"
+"Tone Duration (ms)","500"
+
+
+__Feature__,"Status Alias Table"
+
+__Field Names__
+"Status Alias Number","Status Alias Text"
+__Field Values__
+"1","STATUS 1"
+"2","STATUS 2"
+"3","STATUS 3"
+"4","STATUS 4"
+"5","STATUS 5"
+"6","STATUS 6"
+"7","STATUS 7"
+"8","STATUS 8"
+"9","STATUS 9"
+"10","STATUS 10"
+"11","STATUS 11"
+"12","STATUS 12"
+"13","STATUS 13"
+"14","STATUS 14"
+"15","STATUS 15"
+"16","STATUS 16"
+
+
+__Feature__,"Switches - XTS 2500/2000 - XTS/MT/PR 1500 - ATS 3000"
+
+__Field Name__, __Field Value__
+"Rotary Control","Channel Select"
+"Conventional Three Position Concentric Position A","Blank"
+"Conventional Three Position Concentric Position B","Blank"
+"Conventional Three Position Concentric Position C","Blank"
+"Trunking Three Position Concentric Position A","Blank"
+"Trunking Three Position Concentric Position B","Blank"
+"Trunking Three Position Concentric Position C","Blank"
+
+
+__Feature__,"Test Channel List"
+
+__Field Names__
+"Test Tx Freq(MHz)","Test Rx Freq(MHz)"
+__Field Values__
+"380.025000","380.075000"
+"395.025000","395.075000"
+"409.900000","409.950000"
+"424.850000","424.900000"
+"438.150000","438.200000"
+"444.050000","444.100000"
+"456.350000","456.400000"
+"463.700000","463.750000"
+"469.650000","469.700000"
+
+
+__Feature__,"Trunking Call List"
+
+__Record__,1 of 1 ("Trunking Call List")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"List Alias","LIST 1"
+
+__Section__,"List"
+
+__Field Names__
+"Call List ID","Call List Text","WACN ID","System ID"
+__Field Values__
+"Unassigned","CALL 1","00000","000"
+
+
+__Feature__,"Clone Radio"
+
+__Field Name__, __Field Value__
+"Model Number","H46QDH9PW7BN"
+"External Serial Number","407CJFD817"
+"Last Programmed Date","30-May-2026"
+"Last Programmed Time","5:56 PM"
+"Programming Information Source","Depot"
+
+
+__Feature__,"Trunking Configuration"
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Indv Call Max Target Ring Time","61"
+"Private Call Max Init Ring","30"
+"ISW Window Adjustment","FFC0"
+"Emergency Blocked In Failsoft","False"
+"Rebanding Enabled","False"
+
+__Section__,"Common Air Interface"
+
+__Field Name__, __Field Value__
+"Max Tx Attempts","4"
+"Response Timer","3300"
+"Min Response Timer","700"
+"Tx Limited Patience","Infinite"
+"Tx Long Random Range","2000"
+"Tx Resp Random Range","1000"
+"Frame Sync Seek Period","750"
+"Tx Short Random Range","50"
+
+__Section__,"SMARTZone"
+
+__Field Name__, __Field Value__
+"Failsoft Inactivity","120"
+"Busy Override Delay","2"
+"Affiliation Hold Off","255"
+"Busy Override Chirp Ack","False"
+"Display Site Trunking","True"
+"Alert Site Trunking","True"
+"Full Spectrum Control Channel Scan","False"
+"Full Spectrum Control Channel Scan Timer","10"
+"Internal Radio Holdoff","10"
+"Holdoff Delay","10"
+
+__Section__,"RSSI Thresholds"
+
+__Field Name__, __Field Value__
+"RSSI OSW Counter","80"
+"RSSI OSP Counter","102"
+"Desense Timer","10"
+"RSSI Acceptable Threshold","34"
+"RSSI Good Threshold","40"
+"RSSI Very Good Threshold","46"
+"RSSI Excellent Threshold","4D"
+"Strong Signal Roaming","False"
+
+__Section__,"Filter Constants"
+
+__Field Name__, __Field Value__
+"Filter Constant K1","8"
+"Filter Constant K2","7"
+"Filter Constant K3","7"
+"Filter Threshold Constant T1","14"
+"Filter Threshold Constant T2","1A"
+"Filter Threshold Constant T3","20"
+
+__Section__,"Phone"
+
+__Field Name__, __Field Value__
+"Telephone Interconnect","Half Duplex"
+"Auto Dial Holdoff","2000"
+
+
+__Feature__,"Trunking Personality"
+
+__Record__,1 of 1 ("Trunking Personality")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Protocol Type","ASTRO 25"
+"System & ID","1"
+"System ID","06CC"
+"Trunking System Type","ASTRO 25"
+"Announcement Group","FFFE"
+"Announcement Group WACN ID","00000"
+"Announcement Group System ID","000"
+"Type II Individual ID","1"
+"Type II Individual ID Hex","0001"
+"Unit ID","6645093"
+"Unit ID Hex","656565"
+"ASTRO AG Strapping","Analog"
+"Secure/Clear AG Strapping","Clear"
+"AG Key Select","1"
+"Time Out Timer - Number","3"
+"Time Out Timer - Value","60"
+"Transmit Mode","Unlimited"
+
+__Section__,"Emergency"
+
+__Field Name__, __Field Value__
+"Emergency Protocol Type","ASTRO 25"
+"Retry Counter","1"
+"Tactical","True"
+"Emergency Alarm","False"
+"Emergency Call","False"
+"Console Ack Required","False"
+"Revert PTT ID","False"
+"Emergency Revert Message","False"
+"Emergency Hot Mic","False"
+"Emergency Hot Mic Tx Period","10"
+"Emergency via Silent Audio","False"
+"Silent Audio Tx Period","1"
+"Auto Exit Emergency Call","False"
+"Emergency Revert Type","Talkgroup Revert"
+
+__Section__,"Secure"
+
+__Field Name__, __Field Value__
+"Proper Code Detect","False"
+
+__Section__,"Scan"
+
+__Field Name__, __Field Value__
+"Scan List Selection","None"
+"Automatic Scan","False"
+
+__Section__,"Phone"
+
+__Field Name__, __Field Value__
+"Phone Interconnect","Disabled"
+
+__Section__,"OBT Failsoft"
+
+__Field Name__, __Field Value__
+"Failsoft Type","Disabled"
+"Receive Failsoft Frequency (MHz)","403.00000"
+"Transmit Failsoft Frequency (MHz)","403.00000"
+"Announcement Group Failsoft","False"
+"Type II Receive Failsoft Frequency (MHz)","403.00000"
+"Type II Transmit Failsoft Frequency (MHz)","403.00000"
+"Channel Bandwidth (kHz)","12.50"
+"Transmit Deviation (kHz)","5.0"
+"ASTRO 25 Receive Failsoft Frequency (MHz)","403.00000"
+"ASTRO 25 Transmit Failsoft Frequency (MHz)","403.00000"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"Conversation Type","PTT-ID"
+"Ignore Site Resource Preference","False"
+"Talk Permit Tone","True"
+"Hot Keypad (DTMF)","False"
+"Message","False"
+"Dispatcher Interrupt","False"
+"Trk Status","True"
+"Surveillance Mode","False"
+"PASS Alarm Filter Enable","False"
+"Advanced RF AGC","Enhanced"
+
+__Section__,"Talkgroup"
+
+__Field Names__
+"ASTRO 25 Talkgroup","Talkgroup","OBT Failsoft Enable","F/S Type II Rx Freq","F/S Type II Tx Freq","Secure/Clear Strapping","Tx Voice/Signal Type","Key Select","F/S Enable","F/S Chan Bandwidth (kHz)","F/S Tx Deviation (kHz)","F/S ASTRO 25 Rx Freq (MHz)","F/S ASTRO 25 Tx Freq (MHz)","WACN ID","P25 System ID"
+__Field Values__
+"4E20","1","False","403.00000","403.00000","Clear","Analog","1","True","12.50","5.0","403.00000","403.00000","00001","001"
+"4E21","1","False","403.00000","403.00000","Clear","Analog","1","True","12.50","5.0","403.00000","403.00000","00001","001"
+"4E23","1","False","403.00000","403.00000","Clear","Analog","1","True","12.50","5.0","403.00000","403.00000","00001","001"
+
+__Section__,"Call / Page"
+
+__Field Name__, __Field Value__
+"Private Call Type","Unit to Unit"
+"Operation","Unlimited"
+"Call Alert/Page Operation","Unlimited"
+"Call ID List","1"
+"Trk In-Call User Alert Enable","True"
+
+__Section__,"Preferred Sites"
+
+__Field Names__
+"Site ID (Decimal)","Site ID (Hex)","Preferred Status","Type II Sys ID - RFSS ID","WACN ID","P25 System ID"
+__Field Values__
+"1","1","None","1","00001","001"
+
+__Section__,"Emergency Revert"
+
+__Field Name__, __Field Value__
+"Revert Announcement group for Type II","None"
+"ASTRO Announcement Group Strapping","Analog"
+"Revert Ag Key Sel","1"
+"AG Secure/Clear Strapping","Clear"
+"Revert Talkgroup","001"
+"ASTRO Talkgroup Strapping","Analog"
+"Revert TG WACN ID","00001"
+"Revert TG System","001"
+"Revert TG Key Sel","1"
+"TG Secure/Clear Strapping","Clear"
+"Emergency Revert Zone","1"
+"Emergency Revert Channel","1"
+
+
+__Feature__,"Trunking System"
+
+__Record__,1 of 1 ("Trunking System")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"System Key","True"
+"Trunking System Type","ASTRO 25"
+"System ID","0001"
+"Network ID","010"
+"Trunking System Connect Tone","105.88"
+"Trunking System Failsoft Connect Tone","Default"
+"Trunking System Alias","False"
+"Home System ID","6CC"
+"Home WACN ID","BB800"
+"Unit ID Decimal","6645093"
+"Unit ID Hex","656565"
+"Intra-WACN Roaming","False"
+"Trunking Coverage Type","SmartZone"
+"Trk Coverage Site ID","0"
+
+__Section__,"Type II"
+
+__Field Name__, __Field Value__
+"Individual ID","1"
+"Individual ID (Hex)","0001"
+"Affiliation Type","Automatic"
+"OmniLink","False"
+"Zone Switch Debounce Timer","5"
+"RFSS Response Time","525"
+
+__Section__,"Channel Assignment"
+
+__Field Name__, __Field Value__
+"Rx Channel Ranges Enable Range 1","True"
+"Rx Channel Ranges Spacing Range 1","6.25"
+"Rx Channel Ranges Start Range 1","403.00000"
+"Rx Channel Ranges End Range 1","403.00000"
+"Rx Channel Ranges Enable Range 2","False"
+"Rx Channel Ranges Spacing Range 2","6.25"
+"Rx Channel Ranges Start Range 2","403.00000"
+"Rx Channel Ranges End Range 2","403.00000"
+"Rx Channel Ranges Enable Range 3","False"
+"Rx Channel Ranges Spacing Range 3","6.25"
+"Rx Channel Ranges Start Range 3","403.00000"
+"Rx Channel Ranges End Range 3","403.00000"
+"Tx Channel Ranges Enable Range 1","True"
+"Tx Channel Ranges Spacing Range 1","6.25"
+"Tx Channel Ranges Start Range 1","403.00000"
+"Tx Channel Ranges End Range 1","403.00000"
+"Tx Channel Ranges Enable Range 2","False"
+"Tx Channel Ranges Spacing Range 2","6.25"
+"Tx Channel Ranges Start Range 2","403.00000"
+"Tx Channel Ranges End Range 2","403.00000"
+"Tx Channel Ranges Enable Range 3","False"
+"Tx Channel Ranges Spacing Range 3","6.25"
+"Tx Channel Ranges Start Range 3","403.00000"
+"Tx Channel Ranges End Range 3","403.00000"
+
+__Section__,"DTMF"
+
+__Field Name__, __Field Value__
+"Phone DTMF Timing Table","1"
+"Phone DTMF Initial Delay","1500"
+"Phone DTMF Digit Duration","125"
+"Phone DTMF Interdigit Delay","75"
+
+__Section__,"Aliasing"
+
+__Field Name__, __Field Value__
+"Message Aliasing","False"
+"Status Aliasing","True"
+"Site Aliasing","True"
+
+__Section__,"Message Alias"
+
+__Field Names__
+"Message Alias Number","Message Alias Text"
+__Field Values__
+"1","MESSAGE 1"
+
+__Section__,"Status Alias"
+
+__Field Names__
+"Status Alias Number","Status Alias Text"
+__Field Values__
+"1","AVAIL"
+"2","BUSY"
+"3","DND"
+
+__Section__,"Site Alias"
+
+__Field Names__
+"Site Alias Number","Site Alias Text"
+__Field Values__
+"1","SITE 1"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"Splinter Channel","False"
+"HearClear","False"
+"Secure LED","True"
+"Remote Monitor / Radio Trace Enable","False"
+"Tx Base Time","15"
+"Radio Inhibit","True"
+"Emergency Alarm Receive Indicator Enable","True"
+"Non-Adjacent Site Search","True"
+"Legacy Transit System","False"
+"Shuffled Band Plan","False"
+"Default RCM Address","FFFFFC"
+"Trunking Repeater Offset","None"
+"Rx Modulation","2 Level Receive"
+"Channel Bandwidth","12.5 kHz"
+"NPSPAC Channel Bandwidth","20.0 kHz"
+"In-Call Reset","Auto w/ Carr"
+"Auto Reset Time","5"
+"Channel Assignment Type","Domestic"
+"Tx Power","High"
+
+__Section__,"OBT Control Channels"
+
+__Field Names__
+"Tx Frequency","Rx Frequency"
+__Field Values__
+"403.00000","403.00000"
+
+__Section__,"Dynamic Regrouping"
+
+__Field Name__, __Field Value__
+"Enable Dynamic Regrp","False"
+"Zone","None"
+"Channel","None"
+
+__Section__,"ASTRO 25"
+
+__Field Name__, __Field Value__
+"Site ID","01"
+"Motorola Prop Features","False"
+"ISP Sequence Length","10"
+"Maximum Slot Size","45.0"
+"Force Unmute Time","1200"
+"Quick Fade Protect","6375"
+"PTT Warning Time","6000"
+"Busy Update Time","30"
+"Resp Pending Time","6"
+"WUID Validity Support","False"
+
+__Section__,"Digital"
+
+__Field Name__, __Field Value__
+"ASTRO Capable System","False"
+"Preamble Length","120"
+"Auto Power Adaption","False"
+"Digital Modulator Type","C4FM"
+"High Deviation Tx","False"
+"DES-XL Tx/Rx Default","False"
+"Frm Sync NID BER Thr","24.4"
+"Vocoder BER Thresh","24.4"
+
+__Section__,"Multikey"
+
+__Field Name__, __Field Value__
+"ASTRO OTAR","False"
+"OTAR Tx","False"
+"KMF Profile Index","1"
+"Patch Key Select","1"
+"Failsoft Key Select","1"
+"Private Call Key Select","1"
+"Interconnect Key Select","1"
+"System Wide Key Select","1"
+"Dynamic Talkgroup Key Select","1"
+"Dynamic Announcement Group Key Select","1"
+
+__Section__,"ASTRO 25 OmniLink"
+
+__Field Name__, __Field Value__
+"ASTRO 25 OmniLink","True"
+"RFSS Debounce Timer","5"
+"RFSS ID","1"
+"Fixed End Response Time","750"
+
+__Section__,"ASTRO 25 Site Alias"
+
+__Field Names__
+"Rfss Alias Num","Site Alias Num","Site Alias Txt","Site Alias Type","WACN ID","System ID"
+__Field Values__
+"01","01","W25-TRUNK","Site","00001","001"
+
+__Section__,"ASTRO 25 Channel ID"
+
+__Field Names__
+"Identifier Enable","Channel Bandwidth (kHz)","Transmit Offset Sign","Transmit Offset (MHz)","Channel Spacing (kHz)","Base Frequency (MHz)"
+__Field Values__
+"True","12.500","+","5.00000","6.250","450.00000"
+"True","12.500","+","5.00000","6.250","450.00000"
+"True","12.500","+","5.00000","6.250","450.00000"
+"True","12.500","+","5.00000","6.250","450.00000"
+"True","12.500","+","5.00000","6.250","450.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+"False","12.500","+","1.00000","6.250","380.00000"
+
+__Section__,"OBT ASTRO 25 Control Channels"
+
+__Field Names__
+"Chan Bandwidth (kHz)","Tx Deviation (kHz)","Rx Freq (MHz)","Tx Freq (MHz)"
+__Field Values__
+"12.50","5.0","456.80000","451.80000"
+
+__Section__,"Data"
+
+__Field Name__, __Field Value__
+"Packet Data Capable System","False"
+"Rx Voice Interrupts Data","True"
+"Queue Dwell Timer","60"
+"Terminal Data","False"
+"Location Data Capable System","False"
+"Limited Broadcast","False"
+"OTAP Enable","False"
+"OTAP Retransmission Timer","10"
+"Text Messaging Service","None"
+"Data Application Time Between Attempts","15"
+"Data Application Number of Attempts","5"
+"Random Holdoff Enable","True"
+"Context Activation Holdoff Time","5"
+"Context Activation Holdoff Mode","Failure"
+"Packet Data Registration Version","SNDCP Version 1"
+"IP Header Compression Enable","False"
+
+__Section__,"ARS"
+
+__Field Name__, __Field Value__
+"Automatic Registration Service Enable","False"
+"ARS Retry Timer","30"
+"Automatic Registration Server Addr Trk Octet1","0"
+"Automatic Registration Server Addr Trk Octet2","0"
+"Automatic Registration Server Addr Trk Octet3","0"
+"Automatic Registration Server Addr Trk Octet4","0"
+
+__Section__,"DAC"
+
+__Field Names__
+"DAC Operational Mode","Slot Size (msec)"
+__Field Values__
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+"Classic Apco 25","None"
+
+__Section__,"Group ID"
+
+__Field Names__
+"ASTRO 25 Data Group ID"
+__Field Values__
+"10000000"
+"10000000"
+"10000000"
+"10000000"
+"10000000"
+"10000000"
+"10000000"
+"10000000"
+
+__Section__,"Secure"
+
+__Field Name__, __Field Value__
+"Packet Data Secure/Clear Strapping","Clear"
+"Packet Data Key Selection","1"
+"Allow Rx Clear Packet Data","False"
+"Encrypted Gateway IP Address 1","0"
+"Encrypted Gateway IP Address 2","0"
+"Encrypted Gateway IP Address 3","0"
+"Encrypted Gateway IP Address 4","0"
+
+__Section__,"Bypass"
+
+__Field Names__
+"Address","Type"
+__Field Values__
+"0.0.0.0","Source"
+
+
+__Feature__,"Type II Trunking Call List"
+
+__Record__,1 of 1 ("Type II Trunking Call List")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"List Alias","LIST 1"
+
+__Section__,"List"
+
+__Field Names__
+"Type II Trk Call List ID","Type II Trk Call List Text"
+__Field Values__
+"Unassigned","CALL 1"
+
+
+__Feature__,"User Settings"
+
+__Field Name__, __Field Value__
+"Software System Key Files Location Path","C:\Program Files (x86)\Motorola\Advanced Keys Administrator R05\\SysKeys"
+"FLASHport Upgrade Files Location Path","C:\ProgramData\Motorola\PatPortDepot\upgrade"
+"Voice Files Location Path","C:\ProgramData\Motorola\PatPortDepot\voice"
+
+
+__Feature__,"Zone Channel Assignment"
+
+__Record__,1 of 1 ("Zone Channel Assignment")
+
+__Section__,"Zone"
+
+__Field Name__, __Field Value__
+"Zone Name","Z1"
+
+__Section__,"Channels"
+
+__Field Names__
+"Channel Name","Channel Announcement","Personality Type","Personality #","Talkgroup #","TalkGroup","Strapping","User Selectable PL (MPL)","Receive Frequency","Receive Squelch Type","Receive PL Freq","Receive PL Code","Receive DPL Code","Receive DPL Invert","Transmit Frequency","Transmit Squelch Type","Transmit PL Freq","Transmit PL Code","Transmit DPL Code","Transmit DPL Invert","Tx Opt Transmit Dev","Tx Opt Transmit Dev T/A","Tx Opt Channel Spacing","TA Direct/Talkaround","TA Frequency","TA Squelch Type","TA PL Frequency","TA PL Code","TA DPL Code","TA DPL Invert","Direct Network ID","Tx Network ID","Rx Network ID"
+__Field Values__
+"TEST TG1","None","Trk","1","1","4E20"," ","False","403.02500","PL","67.0","XZ","023","False","403.05000","PL","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","403.02500","PL","67.0","XZ","023","False","293","293","293"
+"TEST PA 1","None","Trk","1","2","4E21"," ","False","403.02500","PL","67.0","XZ","023","False","403.05000","PL","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","403.02500","PL","67.0","XZ","023","False","293","293","293"
+"SYS WIDE","None","Trk","1","3","4E23"," ","False","403.02500","PL","67.0","XZ","023","False","403.05000","PL","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","403.02500","PL","67.0","XZ","023","False","293","293","293"
